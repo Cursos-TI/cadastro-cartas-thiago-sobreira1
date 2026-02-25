@@ -65,7 +65,7 @@ int main () {
 	printf("Área: %f km²\n", area_km2_cidade1);
 	printf("PIB: %f bilhões de reais\n", pib1);
 	printf("Número de Pontos Turísticos: %d \n", numero_pontos_turisticos1);
-  printf("\n");
+	printf("\n");
 	printf("Carta 2:\n");
 	printf("Estado: %c \n", estado2);
 	printf("Código: %s \n", codigo_carta2);
