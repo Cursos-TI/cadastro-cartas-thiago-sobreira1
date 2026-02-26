@@ -20,7 +20,7 @@ int main () {
 	scanf("%s", codigo_carta1);
 
 	printf("Insira o nome da cidade da carta 1: ");
-  	scanf("%s", nome_cidade1);
+  	scanf(" %49[^\n]", nome_cidade1);
 
 	printf("Insira a população da cidade da carta 1: ");
 	scanf("%e", &populacao1);
@@ -42,7 +42,7 @@ int main () {
 	scanf("%s", codigo_carta2);
 
 	printf("Insira o nome da cidade da carta 2: ");
-	scanf("%s", nome_cidade2);
+	scanf(" %49[^\n]", nome_cidade2);
 
 	printf("Insira a população da cidade da carta 2: ");
 	scanf("%e", &populacao2);
