@@ -25,8 +25,7 @@ int main () {
 	printf("Insira o nome da cidade da carta 1: ");
   	scanf(" %49[^\n]", nome_cidade1);
 
-	printf("Insira a população da cidade da carta 1: ");
-	scanf("%lu", &populacao1);
+	populacao1 = 12300000;
 
 	printf("Insira a área da cidade em quilômetros quadrados da carta 1: ");
 	scanf("%f", &area_km2_cidade1);
@@ -51,8 +50,7 @@ int main () {
 	printf("Insira o nome da cidade da carta 2: ");
 	scanf(" %49[^\n]", nome_cidade2);
 
-	printf("Insira a população da cidade da carta 2: ");
-	scanf("%lu", &populacao2);
+	populacao2 = 6000000;
 
 	printf("Insira a área da cidade em quilômetros quadrados da carta 2: ");
 	scanf("%f", &area_km2_cidade2);
@@ -96,7 +94,11 @@ int main () {
 	//COMPARAÇÃO
 	printf("\n COMPARAÇÃO \n");
 
-	printf("Populacao: Carta 1 venceu: %lu\n", populacao1 > populacao2);
+	if (populacao1 > populacao2) {
+		printf("Carta 01 (São Paulo) venceu na categoria População!\n");
+	} else {
+		printf("Carta 02 (Rio de Janeiro) venceu na categoria População!\n");
+	}
 
 	printf("Area: Carta 1 venceu: %d \n", area_km2_cidade1 > area_km2_cidade2);
 
