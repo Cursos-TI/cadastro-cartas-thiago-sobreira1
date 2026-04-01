@@ -40,33 +40,6 @@ int main () {
 	densidade_populacional2 = populacao2 / area_km2_cidade2;
 	pib_per_capita2 = pib2 / populacao2;
 
-	/*//SUPER PODER
-	super_poder1 = populacao1 + area_km2_cidade1 + pib1 + numero_pontos_turisticos1 + pib_per_capita1 + (1/densidade_populacional1);
-	super_poder2 = populacao2 + area_km2_cidade2 + pib2 + numero_pontos_turisticos2 + pib_per_capita2 + (1/densidade_populacional2); */
-
-	/*// ÁREA PARA EXIBIÇÃO DOS DADOS DA CIDADE
-	printf("Carta 1:\n");
-	printf("Estado: %c \n", estado1);
-	printf("Código: %s \n", codigo_carta1);
-	printf("Nome da cidade: %s \n", nome_cidade1);
-	printf("População: %lu\n", populacao1);
-	printf("Área: %.2f km²\n", area_km2_cidade1);
-	printf("PIB: %.2f de reais\n", pib1);
-	printf("Número de Pontos Turísticos: %d \n", numero_pontos_turisticos1);
-	printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
-	printf("PIB per Capita: %.2f\n", pib_per_capita1);
-	printf("\n");
-	printf("Carta 2:\n");
-	printf("Estado: %c \n", estado2);
-	printf("Código: %s \n", codigo_carta2);
-	printf("Nome da cidade: %s \n", nome_cidade2);
-	printf("População: %lu \n", populacao2);
-	printf("Área: %.2f km²\n", area_km2_cidade2);
-	printf("PIB: %.2f de reais\n", pib2);
-	printf("Número de Pontos Turísticos: %d \n", numero_pontos_turisticos2);
-	printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
-	printf("PIB per Capita: %.2f\n", pib_per_capita2); */
-
 	printf("### MENU DE COMPARAÇÃO ###\n");
 	printf("Escolha um atributo para comparar\n");
 	printf("1. População\n");
