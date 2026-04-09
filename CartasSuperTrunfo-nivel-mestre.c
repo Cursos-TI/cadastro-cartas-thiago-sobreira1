@@ -116,9 +116,9 @@ int main () {
 	case 'p':
 		printf("Você escolheu o atributo População\n");
 		if (populacao1 > populacao2) {
-			printf("Carta 01 venceu! Com %lu", populacao1);
+			printf("Carta 01 venceu! Com %lu\n", populacao1);
 		} else if (populacao2 > populacao1) {
-			printf("Carta 02 venceu! Com %lu", populacao2);
+			printf("Carta 02 venceu! Com %lu\n", populacao2);
 		} else {
 			printf("Empate!");
 		}
@@ -127,9 +127,9 @@ int main () {
 	case 'a':
 		printf("Você escolheu o atributo Área\n");
 		if (area_km2_cidade1 > area_km2_cidade2) {
-			printf("Carta 01 venceu! Com %.2f", area_km2_cidade1);
+			printf("Carta 01 venceu! Com %.2f\n", area_km2_cidade1);
 		} else if (area_km2_cidade2 > area_km2_cidade1) {
-			printf("Carta 02 venceu! Com %.2f", area_km2_cidade2);
+			printf("Carta 02 venceu! Com %.2f\n", area_km2_cidade2);
 		} else {
 		    printf("Empate!");
 		}
@@ -138,9 +138,9 @@ int main () {
 	case 'i':
 		printf("Você escolheu o atributo PIB\n");
 		if (pib1 > pib2) {
-			printf("Carta 01 venceu! Com %.2f", pib1);
+			printf("Carta 01 venceu! Com %.2f\n", pib1);
 		} else if (pib2 > pib1) {
-			printf("Carta 02 venceu! Com %.2f", pib2);
+			printf("Carta 02 venceu! Com %.2f\n", pib2);
 		} else {
 		    printf("Empate!");
 		}
@@ -149,9 +149,9 @@ int main () {
 	case 't': 
 		printf("Você escolheu o atributo Número de Pontos Turísticos\n");
 		if (numero_pontos_turisticos1 > numero_pontos_turisticos2) {
-			printf("Carta 01 venceu! Com %d", numero_pontos_turisticos1);
+			printf("Carta 01 venceu! Com %d\n", numero_pontos_turisticos1);
 		} else if (numero_pontos_turisticos2 > numero_pontos_turisticos1) {
-			printf("Carta 02 venceu! Com %d", numero_pontos_turisticos2);
+			printf("Carta 02 venceu! Com %d\n", numero_pontos_turisticos2);
 		} else {
 		    printf("Empate!");
 		}
@@ -160,9 +160,9 @@ int main () {
 	case 'd':
 		printf("Você escolheu o atributo Densidade Demográfica\n");
 		if (densidade_populacional1 < densidade_populacional2) {
-			printf("Carta 01 venceu! Com %.2f", densidade_populacional1);
+			printf("Carta 01 venceu! Com %.2f\n", densidade_populacional1);
 		} else if (densidade_populacional2 < densidade_populacional1) {
-			printf("Carta 02 venceu! Com %.2f", densidade_populacional2);
+			printf("Carta 02 venceu! Com %.2f \n", densidade_populacional2);
 		} else {
 		    printf("Empate!");
 		}
@@ -192,7 +192,7 @@ int main () {
 		switch (segundoAtributo) {
 		case 'P':
 		case 'p':
-			printf("Você escolheu o atributo População");
+			printf("Você escolheu o atributo População\n");
 			if (populacao1 > populacao2) {
 				printf("Carta 01 venceu! Com %lu", populacao1);
 			} else if (populacao2 > populacao1) {
@@ -203,44 +203,44 @@ int main () {
 			break;
 		case 'A':
 		case 'a':
-			printf("Você escolheu o atributo Área");
+			printf("Você escolheu o atributo Área\n");
 			if (area_km2_cidade1 > area_km2_cidade2) {
-				printf("Carta 01 venceu! Com %.2f", area_km2_cidade1);
+				printf("Carta 01 venceu! Com %.2f\n", area_km2_cidade1);
 			} else if (area_km2_cidade2 > area_km2_cidade1) {
-				printf("Carta 02 venceu! Com %.2f", area_km2_cidade2);
+				printf("Carta 02 venceu! Com %.2f\n", area_km2_cidade2);
 			} else {
 			    printf("Empate!");
 			}
 			break;
 		case 'I': 
 		case 'i':
-			printf("Você escolheu o atributo PIB");
+			printf("Você escolheu o atributo PIB\n");
 			if (pib1 > pib2) {
-				printf("Carta 01 venceu! Com %.2f", pib1);
+				printf("Carta 01 venceu! Com %.2f\n", pib1);
 			} else if (pib2 > pib1) {
-				printf("Carta 02 venceu! Com %.2f", pib2);
+				printf("Carta 02 venceu! Com %.2f\n", pib2);
 			} else {
 			    printf("Empate!");
 			}
 			break;
 		case 'T':
 		case 't': 
-			printf("Você escolheu o atributo Número de Pontos Turísticos");
+			printf("Você escolheu o atributo Número de Pontos Turísticos\n");
 			if (numero_pontos_turisticos1 > numero_pontos_turisticos2) {
-				printf("Carta 01 venceu! Com %d", numero_pontos_turisticos1);
+				printf("Carta 01 venceu! Com %d\n", numero_pontos_turisticos1);
 			} else if (numero_pontos_turisticos2 > numero_pontos_turisticos1) {
-				printf("Carta 02 venceu! Com %d", numero_pontos_turisticos2);
+				printf("Carta 02 venceu! Com %d\n", numero_pontos_turisticos2);
 			} else {
 			    printf("Empate!");
 			}
 			break;
 		case 'D':
 		case 'd':
-			printf("Você escolheu o atributo Densidade Demográfica");
+			printf("Você escolheu o atributo Densidade Demográfica\n");
 			if (densidade_populacional1 < densidade_populacional2) {
-				printf("Carta 01 venceu! Com %.2f", densidade_populacional1);
+				printf("Carta 01 venceu! Com %.2f\n", densidade_populacional1);
 			} else if (densidade_populacional2 < densidade_populacional1) {
-				printf("Carta 02 venceu! Com %.2f", densidade_populacional2);
+				printf("Carta 02 venceu! Com %.2f\n", densidade_populacional2);
 			} else {
 			    printf("Empate!");
 			}
@@ -254,15 +254,14 @@ int main () {
 	somaPrimeiraCarta = populacao1 + area_km2_cidade1 + pib1 + numero_pontos_turisticos1 + pib_per_capita1 + (1/densidade_populacional1);
 	somaSegundaCarta = populacao2 + area_km2_cidade2 + pib2 + numero_pontos_turisticos2 + pib_per_capita2 + (1/densidade_populacional2);
 
-	printf("\nSoma dos atributos da Carta 01: %.2f", somaPrimeiraCarta);
-	printf("\nSoma dos atributos da Carta 02: %.2f", somaSegundaCarta);
+	printf("\nSoma dos atributos da Carta 01: %.2f\n", somaPrimeiraCarta);
+	printf("\nSoma dos atributos da Carta 02: %.2f\n", somaSegundaCarta);
 	
 	if (somaPrimeiraCarta > somaSegundaCarta) {
-		printf("\nA Carta 01 é a vencedora geral!");
+		printf("\nA Carta 01 é a vencedora geral!\n");
 	} else if (somaSegundaCarta > somaPrimeiraCarta) {
 		printf("\nA Carta 02 é a vencedora geral!");
 	} else {
 		printf("\nAs cartas estão empatadas!");
 	}
-	
 } 
